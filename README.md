@@ -38,9 +38,3 @@ This is a simple CRUD application built with NestJS.
   Run the container:
   docker run -p 3000:3000 nestjs-crud-app
 
-  ##API Endpoints
-  POST /users - Create a new user.
-  GET /users - Get all users.
-  GET /users/:id - Get a user by ID.
-  PUT /users/:id - Update a user by ID.
-  DELETE /users/:id - Delete a user by ID.
