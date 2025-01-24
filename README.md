@@ -19,23 +19,28 @@ This is a simple CRUD application built with NestJS.
    cd nestjs-crud-app
 
 
-##Install dependencies:
-npm install
+  ##Install_dependencies:
+  ```bash
 
-##Start the application:
-npm run start
+  npm install
 
-##Docker Usage
+  ##Start the application:
+  
+  ```bash
 
-Build the Docker image:
-docker build -t nestjs-crud-app .
+  npm run start
 
-Run the container:
-docker run -p 3000:3000 nestjs-crud-app
+  ##Docker Usage
 
-##API Endpoints
-POST /users - Create a new user.
-GET /users - Get all users.
-GET /users/:id - Get a user by ID.
-PUT /users/:id - Update a user by ID.
-DELETE /users/:id - Delete a user by ID.
+  #Build the Docker image:
+  docker build -t nestjs-crud-app .
+
+  Run the container:
+  docker run -p 3000:3000 nestjs-crud-app
+
+  ##API Endpoints
+  POST /users - Create a new user.
+  GET /users - Get all users.
+  GET /users/:id - Get a user by ID.
+  PUT /users/:id - Update a user by ID.
+  DELETE /users/:id - Delete a user by ID.
